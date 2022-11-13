@@ -15,7 +15,7 @@
   <body>
     <header class="header">
       <div class="header-block container">
-        <a href="./index.html" lang="en" class="logo"><span>Web</span>>Studio</a>
+        <a href="./index.html" lang="en" class="logo"><span>Web</span>Studio</a>
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
@@ -56,7 +56,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <h2 hidden class="hidden work">Наши работы</h2>
+          <h2 class="hidden work">Наши работы</h2>
 
           <div class="filter-work-type">
             <ul class="work-type-list">
@@ -82,8 +82,8 @@
             <li class="work-item">
               <div class="work-portfolio">
                 <a href="./portfolio.html">
-                <img class="work-img" src="./images/pf-img1.jpg" alt="На ноутбуці відкрито сайт із трьома фото співробітників" width="370" />
-                <p class="work-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img src="./images/pf-img1.jpg" alt="На ноутбуці відкрито сайт із трьома фото співробітників" width="370" />
+                  <p class="work-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
               </div>
               <div class="work-desc">
                   <h2 class="work-title">Технокряк</h2>
@@ -184,7 +184,7 @@
       </section>
     </main>
 
- <footer class="footer-contacts">
+    <footer class="footer-contacts">
       <div class="container footer-block">
         <div class="footer-address">
           <a href="./index.html" class="footer-logo logo" lang="en"><span>Web</span>Studio</a>
@@ -234,6 +234,20 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-form">
+          <p class="footer-socials-title">Підпишіться на розсилку</p>
+          <form action="#">
+            <label for="user-email" class="form-footer">
+              <input type="email" name="user-email" required placeholder="E-mail" />
+            </label>
+            <button type="submit" class="btn subscribe-btn">
+              Підписатися
+              <svg class="icon icon-telegram" width="24" height="24">
+                <use xlink:href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
