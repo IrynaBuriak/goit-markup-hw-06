@@ -709,7 +709,8 @@ ul {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-row-input:focus {
+.form-row-input:focus, 
+.form-row-input:hover{
     border-color: var(--accent-color);
 }
 
