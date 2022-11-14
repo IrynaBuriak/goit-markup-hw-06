@@ -756,7 +756,9 @@ ul {
     position: relative;
 }
 .privacy input{
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
 .privacy label::before {
     cursor: pointer;
