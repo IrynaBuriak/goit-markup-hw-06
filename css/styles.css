@@ -671,7 +671,7 @@ ul {
     color: var(--header-text-color);
 }
 
-.icon-form svg {
+.icon-input {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -712,6 +712,12 @@ ul {
 .form-row-input:focus, 
 .form-row-input:hover{
     border-color: var(--accent-color);
+}
+
+.form-row-input:focus + .icon-input,
+.form-row-input:hover + .icon-input {
+    color:var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .comment::placeholder {
